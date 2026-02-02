@@ -2,6 +2,12 @@
 
 
 /* Gloabal Styles */
+/* Font Styles */
+:root {
+    --font-main: 'Arial', sans-serif;     
+    --font-header: 'Georgia', serif;       
+}
+
 /* Page Style Reset */
 * {
     margin: 0;
@@ -13,9 +19,10 @@
 /* Entire Visual Page Styles */
 /* Full Height of the Screen */
 body {
+    display: flex;
+    flex-direction: column;
     font-family: var(--font-main);
     line-height: 1.6;
-    flex-direction: column;
     min-height: 100vh;	
 }
 
@@ -39,9 +46,8 @@ header h1 {
 /* Space Between the Header and Footer */
 main {
     flex: 1;
-    padding: 2rem;
-    padding-top: 0px;
-    margin: 3rem;
+    padding: 2rem; 
+    margin: 0 3rem; 
     text-align: center;
 }
 
