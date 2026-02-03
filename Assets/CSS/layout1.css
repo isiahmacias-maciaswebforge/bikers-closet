@@ -1,4 +1,4 @@
-/* Layout */
+/* Layout1 */
 
 
 /* Gloabal Styles */
@@ -14,68 +14,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Nav Styles */
-/* Wrapper of all navigation and buttons */
-nav {
-  display: table;
-  width: 50%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  table-layout: fixed;
-}
-
-/* List that holds all navigation items */
-nav ul {
-  display: table-row;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* Individual navigation item (one per link) */
-nav ul li {
-  display: table-cell;
-  text-align: center;
-}
-
-/* The Style of each individual link */
-nav ul li a {
-  display: block;
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-  color: inherit;
-  transition: background-color 0.2s ease;
-}
-
-/* The Dynamic style when the button is hovered over */
-nav ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.35);
-  border-radius: 6px;  
-  color: #f2f2f2;
-}
-
-/* Containers */
-/* Used to contain content and contrast "main" */
-.contentContainer {
-    background: rgb(255,255,255,1);
-    padding: 20px;
-    border-radius: 6px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Temporary Container to show construction */
-.constructionContentContainer {
-    color: red;
-    background: rgb(255,255,255,1);
-    padding: 20px;
-    border-radius: 6px;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 20px;
 }
 
 
