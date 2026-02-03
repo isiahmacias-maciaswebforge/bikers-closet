@@ -4,8 +4,8 @@
 /* Gloabal Styles */
 /* Font Styles */
 :root {
-    --font-main: 'Arial', sans-serif;     
-    --font-header: 'Georgia', serif;  
+    --font-main: 'Verdana', 'Geneva', sans-serif;     
+    --font-header: 'Rock Salt', 'Georgia', serif;  
     --accent: #e0e0e0;
 }
 
