@@ -72,8 +72,8 @@ body {
 /* Header Styles */
 /* Actual Header Section */
 header {
-    color: white;
-    background-color: #FF6600;
+    color: black;
+    background-color: #E65C00;
     padding: 1.5rem;
     text-align: center;
 }
@@ -97,8 +97,8 @@ main {
 /* Footer Styles */
 /* Actual Footer Section */
 footer {
-    color: white;
-    background-color: #FF6600;
+    color: black;
+    background-color: #E65C00;
     padding: 1.5rem;
     text-align: center;
 }
