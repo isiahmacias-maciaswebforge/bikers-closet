@@ -37,6 +37,25 @@ header {
     background-color: #C75100;
     padding: 1.5rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative; 
+    flex-direction: column; 
+}
+
+/* Left part of Header */
+.header-left {
+    margin-right: auto;
+    position: absolute;
+    left: 1.5rem; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+/* Main part of Header */
+.header-main {
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Header Title */
