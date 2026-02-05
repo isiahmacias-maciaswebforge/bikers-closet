@@ -80,26 +80,28 @@ main {
 footer {
     color: black;
     background-color: #C75100;
-    padding: 1.5rem;
-    text-align: center;
     border-top: 3px solid var(--accent);
 }
 
 /* Main Content of the Footer */
 .footer-content {
     display: flex;
-    max-width: 1200px;
+    justify-content: space-between;  /* pushes text left, logo right */
+    align-items: center;
+    max-width: 700px;
     margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
 }
 
 /* Left side of the Main Content of the Footer */
-.footer-content-left {
-    
+.footer-content-left { 
+    text-align: left;
 }
 
 /* Left side of the Main Content of the Footer */
-.footer-content-left {
-    
+.footer-content-right {
+    text-align: right;
 }
 
 /* Our Shoutout at the Bottom */
