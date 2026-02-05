@@ -81,6 +81,7 @@ footer {
     color: black;
     background-color: #C75100;
     border-top: 3px solid var(--accent);
+    padding: 10px;
 }
 
 /* Main Content of the Footer */
@@ -91,7 +92,6 @@ footer {
     max-width: 700px;
     margin: 0 auto;
     gap: 2rem;
-    padding: 10px;
 }
 
 /* Left side of the Main Content of the Footer */
