@@ -46,11 +46,11 @@ nav ul li a:hover {
 /* Containers */
 /* Used to contain content and contrast "main" */
 .contentContainer {
-    background: rgb(255,255,255,1);
+    background: rgb(255,255,255,0.9);
     padding: 20px;
     border-radius: 6px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 /* Temporary Container to show construction */
