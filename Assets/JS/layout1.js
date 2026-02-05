@@ -16,3 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
+// Make favicon circular
+function makeFaviconCircular(src) {
+}
+
+// Initialize favicon using existing link href
+const faviconLink = document.querySelector('link[rel="icon"]');
+if (faviconLink) {
+  makeFaviconCircular(faviconLink.getAttribute('href'));
+}
