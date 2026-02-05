@@ -43,6 +43,7 @@ header {
     flex-direction: column; 
     top: 0;
     border-bottom: 3px solid var(--accent);
+    min-height: 120px;
 }
 
 /* Left part of Header */
