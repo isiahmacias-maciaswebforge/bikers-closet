@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "public": "dist", // or "build" if that’s your output
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
